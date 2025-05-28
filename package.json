@@ -8,7 +8,7 @@
   "license": "MIT",
   "keywords": [],
   "exports": {
-    "types": "./dist/cli.d.ts",
+    "types": "./dist/index.d.ts",
     "import": "./dist/index.js"
   },
   "bin": "./bin/cli.js",
