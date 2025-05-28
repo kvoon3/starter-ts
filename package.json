@@ -26,7 +26,15 @@
     "@antfu/eslint-config": "^4.13.2",
     "@antfu/ni": "^25.0.0",
     "eslint": "^9.27.0",
+    "lint-staged": "^16.0.0",
+    "simple-git-hooks": "^2.13.0",
     "tsdown": "^0.12.4",
     "typescript": "^5.8.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint . --fix"
   }
 }
