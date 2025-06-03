@@ -5,7 +5,6 @@ export default defineConfig({
     './src/index.ts',
     './src/cli.ts',
   ],
-  dts: true,
   publint: true,
   platform: 'neutral',
 })
