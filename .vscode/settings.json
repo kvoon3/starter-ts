@@ -51,5 +51,6 @@
   "cSpell.words": [
     "taze",
     "tsdown"
-  ]
+  ],
+  "pnpmCatalogLens.enabled": true
 }

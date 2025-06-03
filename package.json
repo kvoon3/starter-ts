@@ -20,16 +20,22 @@
     "dev": "tsdown --watch",
     "build": "tsdown",
     "up": "nlx taze -I major",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "tinyexec": "catalog:utils"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.13.2",
-    "@antfu/ni": "^25.0.0",
-    "eslint": "^9.27.0",
-    "lint-staged": "^16.0.0",
-    "simple-git-hooks": "^2.13.0",
-    "tsdown": "^0.12.4",
-    "typescript": "^5.8.3"
+    "@antfu/eslint-config": "catalog:cli",
+    "@antfu/ni": "catalog:cli",
+    "@antfu/nip": "catalog:cli",
+    "eslint": "catalog:cli",
+    "lint-staged": "catalog:cli",
+    "simple-git-hooks": "catalog:cli",
+    "tsdown": "catalog:cli",
+    "typescript": "catalog:cli"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
