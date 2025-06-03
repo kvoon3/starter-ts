@@ -35,6 +35,7 @@
     "lint-staged": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
     "tsdown": "catalog:cli",
+    "tsx": "catalog:cli",
     "typescript": "catalog:cli"
   },
   "simple-git-hooks": {
