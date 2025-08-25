@@ -13,9 +13,7 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": "./bin/cli.js",
   "files": [
-    "bin",
     "dist"
   ],
   "scripts": {
@@ -33,7 +31,6 @@
     "@antfu/eslint-config": "catalog:cli",
     "@antfu/ni": "catalog:cli",
     "@antfu/nip": "catalog:cli",
-    "cac": "catalog:utils",
     "eslint": "catalog:cli",
     "lint-staged": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
