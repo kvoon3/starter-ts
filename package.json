@@ -4,8 +4,12 @@
   "version": "0.0.0",
   "packageManager": "pnpm@11.7.0",
   "description": "__DESCRIPTION__",
-  "author": "Kevin Kwong <kvoon@duck.com>",
+  "author": "Kevin Kwong <kwongliegaai@gmail.com>",
   "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/kvoon3"
+  },
   "keywords": [],
   "exports": {
     "types": "./dist/index.d.ts",
