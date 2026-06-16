@@ -21,6 +21,7 @@
     "build": "tsdown",
     "up": "nlx taze -I major",
     "typecheck": "tsc --noEmit",
+    "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -35,7 +36,8 @@
     "simple-git-hooks": "catalog:cli",
     "tsdown": "catalog:cli",
     "tsx": "catalog:cli",
-    "typescript": "catalog:cli"
+    "typescript": "catalog:cli",
+    "vitest": "catalog:cli"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec nano-staged"
