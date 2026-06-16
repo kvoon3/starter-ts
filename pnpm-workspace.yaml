@@ -1,13 +1,19 @@
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
+allowBuilds:
+  esbuild: true
+  simple-git-hooks: true
 catalogs:
   cli:
-    '@antfu/eslint-config': ^5.2.1
-    '@antfu/ni': ^25.0.0
-    '@antfu/nip': latest
-    eslint: ^9.34.0
-    lint-staged: ^16.1.5
+    '@antfu/eslint-config': ^9.0.0
+    '@antfu/ni': ^30.1.0
+    eslint: ^10.5.0
+    nano-staged: ^1.0.2
     simple-git-hooks: ^2.13.1
-    tsdown: ^0.14.1
+    tsdown: ^0.22.2
     tsx: latest
-    typescript: ^5.9.2
+    typescript: ^6.0.3
   utils:
-    tinyexec: ^1.0.1
+    tinyexec: ^1.2.4

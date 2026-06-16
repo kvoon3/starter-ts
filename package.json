@@ -2,7 +2,7 @@
   "name": "starter-ts",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@11.7.0",
   "description": "__DESCRIPTION__",
   "author": "Kevin Kwong <kvoon@duck.com>",
   "license": "MIT",
@@ -30,18 +30,17 @@
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",
     "@antfu/ni": "catalog:cli",
-    "@antfu/nip": "catalog:cli",
     "eslint": "catalog:cli",
-    "lint-staged": "catalog:cli",
+    "nano-staged": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
     "tsdown": "catalog:cli",
     "tsx": "catalog:cli",
     "typescript": "catalog:cli"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm exec lint-staged"
+    "pre-commit": "pnpm exec nano-staged"
   },
-  "lint-staged": {
+  "nano-staged": {
     "*": "eslint . --fix"
   }
 }
