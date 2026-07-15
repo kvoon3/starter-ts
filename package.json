@@ -2,7 +2,7 @@
   "name": "starter-ts",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@11.13.0",
   "description": "__DESCRIPTION__",
   "author": "Kevin Kwong <kwongliegaai@gmail.com>",
   "license": "MIT",
